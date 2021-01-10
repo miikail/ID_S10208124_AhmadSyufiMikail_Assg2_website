@@ -19,7 +19,7 @@ To see types of breeds and information of breeds:
 - Go to 'Breeds' page
 - There lists out all of the breeds
 - Hover over the name to see a brief information
-- Click on the name of breed and it will redirect to
++ Click on the name of breed and it will redirect to
 another website that shows more detailed info about
 that breed
 
