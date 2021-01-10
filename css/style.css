@@ -281,7 +281,6 @@ section .b_container #breeds {
 
 section .b_container li {
     padding: 0 5px;
-
 }
 
 section .b_container a {
@@ -321,6 +320,8 @@ section .b_container a {
 
 .dropdown:hover {
     background: #235e86d7;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .dropdown:hover .dropdown-content {

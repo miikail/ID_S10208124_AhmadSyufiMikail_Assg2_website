@@ -43,7 +43,7 @@ fetch(url)
 
             breed_id.innerHTML += 
                 "<div class='dropdown'> \
-                    <li class='dropbtn'><a href='#'>" + breed.name + "</a></li> \
+                    <li class='dropbtn'><a href='" + breed.vetstreet_url +"'>" + breed.name + "</a></li> \
                     <div class='dropdown-content'> \
                         <h1>" + breed.name + "</h1>" + 
                         "<p>" + breed.description + "</p>\
