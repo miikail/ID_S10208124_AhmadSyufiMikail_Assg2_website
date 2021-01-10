@@ -62,21 +62,21 @@ On the 'Breeds' page
 ## Testing
 
 1. Getting images of cats:
-  1. Go to the "Facts" page
-  2. Click on "Get Images" button
-  3. Should get different images of cats every click
+  - Go to the "Facts" page
+  - Click on "Get Images" button
+  - Should get different images of cats every click
 
 2. Getting facts of cats:
-  1. Go to the "Facts" page
-  2. Click on "Get Facts" button
-  3. Should get different facts of cats every click
+  - Go to the "Facts" page
+  - Click on "Get Facts" button
+  - Should get different facts of cats every click
 
 3. Breeds of cats:
-  1. Go to "Breeds" page
-  2. Hover over the breed's name
-  3. Will show brief description of cats
-  4. Click on breeds name
-  5. Will redirect user to a website that shows detailed information
+  - Go to "Breeds" page
+  - Hover over the breed's name
+  - Will show brief description of cats
+  - Click on breeds name
+  - Will redirect user to a website that shows detailed information
 
 ## Credits
 
