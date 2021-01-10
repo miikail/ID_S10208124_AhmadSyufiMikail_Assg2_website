@@ -1,0 +1,273 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    height: 750px;
+
+    background: url("../img/paw.jpg") repeat center;
+    background-size: 100%;
+}
+
+/* Header */
+header {
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+
+    width: auto;
+    height: 200px;
+}
+
+header .container {
+    position: relative;
+
+    width: 1000px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    background: #377faf7a;
+    color: #ffffff;
+    text-shadow: 0 0 5px #377faf;
+
+    border-radius: 35px;
+}
+
+header #pages {
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+
+    flex-direction: column;    
+
+    margin-left: 115px;
+}
+
+header #header-img {
+    position: relative;
+    top: 50px;
+    left: 40px;
+
+    display: flex;
+
+    width: 200px;
+    height: 130px;
+    
+    background: url("../img/cat.jpg") no-repeat center;
+    background-size: 125%;
+    border: 3px #111;
+    border-style: dotted;
+    border-radius: 120px;
+}
+
+header #web_name {
+    text-align: center;
+    
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+header li {
+    position: relative;
+    right: 20px;
+    
+    display: inline;
+
+    margin-right: 5px;
+    padding: 0 20px 0 20px;
+
+    background: #377faf7a;
+    border-radius: 30px;
+    color: #111111;
+}
+
+header .current a {
+    color: #111111;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #000000;
+}
+
+section .f_container {
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+
+    height: 490px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    background: url("../img/cat-pink.jpg") center;
+    border: 2px solid #fa80af;
+    border-radius: 100px;
+}
+
+
+section .b_container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: auto;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    background: #faa0a7c7;
+    border-radius: 100px;
+    color: #000000;
+    font-size: 20px;
+}
+
+section .b_container #bName {
+    position: inherit;
+    
+    display: flex;
+    left: 40%;
+
+    bottom: 20px;
+}
+
+section .b_container #breeds {
+    position: relative;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    height: 450px;
+    bottom: 20px;
+    
+    list-style-position: inside;
+}
+
+section .b_container li {
+    padding: 0 5px;
+
+}
+
+section .b_container a {
+    display: inline-block;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+
+    display: none;
+    
+    min-width: 160px;
+
+    background-color: #f1f1f1;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content p {
+    display: block;
+    
+    padding: 12px 16px;
+
+    color: black;
+    text-decoration: none;
+  }
+
+.dropdown:hover {
+    background: #235e86d7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section a:hover {
+    color: #fff;
+}
+
+section span {
+    font-weight: bold;
+}
+
+section #images {
+    position: inherit;
+
+    align-self: center;
+    text-align: center;
+
+    width: fit-content;
+
+    margin: 30px;
+    top: 15px;
+
+    background: #c00892b0;
+    border-radius: 20px;
+    box-shadow: 0 0 3px #c00892;
+    color: #ffffff;
+}
+
+section img {
+    position: static;
+
+    display: flex;
+    justify-content: center;
+
+    max-width: 500px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+
+    border-radius: 20px;
+    box-shadow: 0 0 3px #111111;
+}
+
+section #facts {
+    position: relative;
+
+    display: flexbox;
+    align-self: center;
+
+    max-width: 600px;
+    
+    margin: 30px;
+    padding: 10px;
+
+    background: #c00892b0;
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 6px #880066;
+}
+
+section #facts h1 {
+    text-decoration: underline;
+}
+
+section p {
+    position: relative;
+
+    width: auto;
+}
+
