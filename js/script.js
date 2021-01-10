@@ -9,8 +9,8 @@ function newFact() {
         var fact_id = document.getElementById('p_facts');
         var text = data.text;
         
-        fact_id.innerHTML = text
-})
+        fact_id.innerHTML = text;
+});
 }
 
 function newImage() {
@@ -32,22 +32,14 @@ url = 'https://api.thecatapi.com/v1/breeds/';
 fetch(url)
     .then(response => response.json())
     .then(function(data) {
-        console.log(data)
-
-        var breed_id = document.getElementById("breeds")
+        console.log(data);
         
         for(let i = 0; i < data.length; i++)
         {
             var breed_id= document.getElementById('breeds');
-            var breed = data[i]
+            var breed = data[i];
 
             breed_id.innerHTML += 
-                "<div class='dropdown'> \
-                    <li class='dropbtn'><a href='" + breed.vetstreet_url +"'>" + breed.name + "</a></li> \
-                    <div class='dropdown-content'> \
-                        <h1>" + breed.name + "</h1>" + 
-                        "<p>" + breed.description + "</p>\
-                    </div>\
-                </div>";
+                "<div class='dropdown'><li class='dropbtn'><a href='" + breed.vetstreet_url +"'>" + breed.name + "</a></li><div class='dropdown-content'><h1>" + breed.name + "</h1><p>" + breed.description + "</p></div><div>";
         }
-})
+});

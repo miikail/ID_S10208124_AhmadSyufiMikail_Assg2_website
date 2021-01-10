@@ -214,7 +214,6 @@ section img {
 section #facts {
     position: relative;
 
-    display: flexbox;
     align-self: center;
 
     max-width: 600px;
