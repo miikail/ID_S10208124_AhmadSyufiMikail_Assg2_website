@@ -17,7 +17,8 @@ To see types of breeds and information of breeds:
 - Go to 'Breeds' page
 
 Wireframe:
-- links/ID_S10208124_AhmadSyufiMikail_Assg2_wireframe.xd
+<!-- How to add wireframe link...
+     How to add project's link... -->
 
 ## Features
 
