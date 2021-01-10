@@ -11,15 +11,15 @@ The audience of this websites are for users of all age, that loves cats. From ch
 This websites also tells us the many different type of breeds of cats in this world. And it will also directs to a website that allows users to learn more information about those breeds.
 
 To see facts and pictures of cats:
-> Go to 'Facts' page
-> Click on 'Get Image' button to get images of cats
-> Click on 'Get Facts' button to get facts of cats
+- Go to 'Facts' page
+- Click on 'Get Image' button to get images of cats
+- Click on 'Get Facts' button to get facts of cats
 
 To see types of breeds and information of breeds:
-> Go to 'Breeds' page
-> There lists out all of the breeds
-> Hover over the name to see a brief information
-> Click on the name of breed and it will redirect to
+- Go to 'Breeds' page
+- There lists out all of the breeds
+- Hover over the name to see a brief information
+- Click on the name of breed and it will redirect to
 another website that shows more detailed info about
 that breed
 
