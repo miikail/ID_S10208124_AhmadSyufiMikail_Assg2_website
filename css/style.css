@@ -99,7 +99,7 @@ header a:hover {
     color: #000000;
 }
 
-section .container {
+section .i_container {
     position: relative;
 
     display: flex;
@@ -108,6 +108,27 @@ section .container {
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
+
+    background: #c044afcb;
+    box-shadow: 0 0 5px #d13bac93;
+    border-radius: 100px;
+    color: #fff;
+}
+
+section .a_container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+
+    margin-top: 60px;
+    margin-left: 24%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
 
     background: #c044afcb;
     box-shadow: 0 0 5px #d13bac93;
